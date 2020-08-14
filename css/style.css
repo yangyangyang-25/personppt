@@ -1,0 +1,123 @@
+html, body {
+  font-family: helvetica, arial, sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+body {
+	font-family: 'Lato', Calibri, Arial, sans-serif;
+	color: #fff;
+	background: #fff;
+}
+ul,li,ol,dl,dt,dd{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.bespoke-slide{
+	background-color: #ece9e4;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.bespoke-slide h1 {
+	font-weight: 700;
+	font-size: 4.4em;
+	line-height: 1;
+	letter-spacing: 6px;
+	margin-top: 1em;
+	width: 100%;
+	text-align: center;
+	text-transform: uppercase;
+	word-spacing: -0.3em;
+}
+a{text-decoration: none;color: #2fa8ec}
+.bespoke-slide>p{
+	text-align: center;
+}
+.main{
+	width: 1000px;
+	box-sizing: border-box;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+}
+.main dl{
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+	border: 1px solid #fff;
+	border-radius: 5px;
+	text-align: center;
+	padding-bottom: 20px;
+}
+.main dl dt{
+	padding: 10px 0;
+	border-bottom: 1px solid #fff;
+	margin-bottom: 20px;
+	font-size: 2em;
+}
+.main dl dd{
+	line-height: 40px;
+}
+.main dl dd a{
+	color: #fcfcfc;
+}
+.main>div{
+	width: 48%;
+}
+.text{
+	color: #47443f;
+}
+.text p{
+	text-align: left;
+	color: #d5948e;
+	font-weight: normal;
+}
+.image{
+	padding: 10px;
+	height: 400px;
+	overflow: hidden}
+.image img{
+	width: 100%;
+}
+.list{display: flex;justify-content: space-between}
+.list li{width:25%;box-sizing: border-box;padding:0 5px;color: #2f3238;flex: auto;}
+.list li>div{border-radius: 5px;background-color: #fff;padding:20px 10px;height: 100%}
+.list li h2{text-align: center;}
+.list li p{font-size: 14px;color: #999;padding: 10px}
+.list li p i{font-size: 12px;color: #64448f;}
+.main>.imginfo{width: 100%;background-color: #ece9e4;border-radius: 10px}
+.main video{width: 100%; padding: 20px;box-sizing: border-box;outline: none}
+.imginfo .listtitle{display: flex;justify-content: space-between}
+.imginfo .listtitle li{width: 20%;text-align: center;background-color: #fff;color: #2f3238;padding: 10px 0;}
+.imginfo .listtitle li:first-child{border-radius:10px 0 0 0;}
+.imginfo .listtitle li.active{background-color: #ece9e4;color:#d5948d}
+.imginfo .listtitle li:last-child{border-radius:0 10px 0 0;}
+.imginfo .listtitle li p{margin: 0;line-height: 16px}
+.imginfo .listtitle li i{font-size: 12px;line-height: 12px}
+.imginfo .listinfo li{display: none;padding: 15px 10px;color: #2f3238}
+.imginfo .listinfo li .image{overflow: auto;height: auto;width: 420px}
+.imginfo .listinfo li div:last-of-type{width: 560px;box-sizing: border-box;padding: 10px}
+.imginfo .listinfo li img{width: 400px;border-radius:10px;}
+.list li>img{border-radius: 5px}
+.bespoke-slide:nth-child(12)  .list li p{
+	background-color: #ece9e4;color: #d5948e;padding: 30px 10px;border-radius: 10px;
+}
+.bespoke-slide:nth-child(1){background-image: url("http://images.yangyangyang.site/ppt01.png");}
+.bespoke-slide:nth-child(2){background-image: url("http://images.yangyangyang.site/ppt02.png");}
+.bespoke-slide:nth-child(3){background-image: url("http://images.yangyangyang.site/ppt04.png");padding-top: 10%}
+.bespoke-slide:nth-child(4){background-image: url("http://images.yangyangyang.site/ppt04.png");color: #47443f;text-align: center}
+.bespoke-slide:nth-child(5){background-image: url("http://images.yangyangyang.site/ppt04.png");color: #47443f;padding-top:1em}
+.bespoke-slide:nth-child(5) .main{flex-direction: column}
+.bespoke-slide:nth-child(5) .main div{width: 100%}
+.bespoke-slide:nth-child(6){background-image: url("http://images.yangyangyang.site/ppt06.png");}
+.bespoke-slide:nth-child(7){background-image: url("http://images.yangyangyang.site/ppt06.png");}
+.bespoke-slide:nth-child(8){background-image: url("http://images.yangyangyang.site/ppt09.png");color: #d5948e}
+.bespoke-slide:nth-child(9){background-image: url("http://images.yangyangyang.site/ppt09.png");color: #d5948e}
+.bespoke-slide:nth-child(10){background-image: url("http://images.yangyangyang.site/ppt11.png");}
+.bespoke-slide:nth-child(11){background-image: url("http://images.yangyangyang.site/ppt11.png");}
+.bespoke-slide:nth-child(12){background-image: url("http://images.yangyangyang.site/ppt11.png");}
+.bespoke-slide:nth-child(13){background-image: url("http://images.yangyangyang.site/ppt12.png");}
